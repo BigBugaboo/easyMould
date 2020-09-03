@@ -6,6 +6,8 @@
     "start": "yarn run build && node dist/index.js"
   },
   "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
     "browserify": "^16.5.2",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
@@ -15,6 +17,7 @@
     "gulp-typescript-babel": "^1.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
+    "husky": "^4.2.5",
     "tsify": "^5.0.0",
     "typescript": "^4.0.2",
     "vinyl-buffer": "^1.0.1",
@@ -30,6 +33,16 @@
   },
   "description": "this is a new frame,let work to easy",
   "main": "index.js",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "repository": "https://github.com/BigBugaboo/easyMould.git",
   "author": "bugaboo(hj497304787@vip.qq.com)",
   "license": "MIT",
