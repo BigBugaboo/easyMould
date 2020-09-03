@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.11.5",
+    "@commitlint/prompt-cli": "^9.1.2",
     "babel-preset-env": "^1.7.0",
     "eslint": "^7.6.0",
     "eslint-plugin-gm-react-app": "^3.3.0",
