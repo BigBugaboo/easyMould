@@ -1,10 +1,11 @@
 {
   "name": "easyMould",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "scripts": {
     "build": "yarn run gulp",
     "start": "yarn run build && node dist/index.js",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0"
+    "release": "./release.sh",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md && npm run changeissueurl"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",

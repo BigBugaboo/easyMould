@@ -1,8 +1,13 @@
-# Changelog
+## [0.0.1](https://github.com/BigBugaboo/easyMould/compare/v0.0.2...v0.0.1) (2020-09-03)
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### 0.0.2 (2020-09-03)
+
+## [0.0.2](https://github.com/BigBugaboo/easyMould/compare/667078da47c7470f5591bffe44fca0e71087ac44...v0.0.2) (2020-09-03)
+
+
+### Bug Fixes
+
+* deleted cz-customizable ([9d3d1d6](https://github.com/BigBugaboo/easyMould/commit/9d3d1d61b8377bcee9ab9f565ba81375c515327e))
 
 
 ### Features
@@ -12,14 +17,4 @@ All notable changes to this project will be documented in this file. See [standa
 * add prompt-cli ([644fa84](https://github.com/BigBugaboo/easyMould/commit/644fa8445128eb39cb1c0a10a0d16facd6a45cc6))
 
 
-### Bug Fixes
 
-* deleted cz-customizable ([9d3d1d6](https://github.com/BigBugaboo/easyMould/commit/9d3d1d61b8377bcee9ab9f565ba81375c515327e))
-
-## 0.0.1 (2020-09-03)
-
-
-### Features
-
-* add commitlint on project ([667078d](https://github.com/BigBugaboo/easyMould/commit/667078da47c7470f5591bffe44fca0e71087ac44))
-* add prompt-cli ([644fa84](https://github.com/BigBugaboo/easyMould/commit/644fa8445128eb39cb1c0a10a0d16facd6a45cc6))
