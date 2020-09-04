@@ -11,6 +11,11 @@ const connect = require('gulp-connect')
 const sourcemaps = require('gulp-sourcemaps')
 const buffer = require('vinyl-buffer')
 
+// 配置
+const paths = {
+  pages: ['src/*.html'],
+}
+
 // 清除
 gulp.task('clean', () => {
   return gulp
@@ -20,17 +25,12 @@ gulp.task('clean', () => {
     .pipe(clean())
 })
 
-// 配置
-const paths = {
-  pages: ['src/*.html'],
-}
-
 // 监听
 const watchedBrowserify = watchify(
   browserify({
     basedir: '.',
     debug: true,
-    entries: ['src/index.ts'],
+    entries: ['./src/index.ts'],
     cache: {},
     packageCache: {},
   }).plugin(tsify)

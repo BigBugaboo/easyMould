@@ -1,8 +1,3 @@
-import { sayHello } from "./greet";
+const enter = document.getElementById('root')
 
-function showHello(idName: string, name: string) {
-    const elt = document.getElementById(idName);
-  elt.innerText = sayHello(name);
-}
-
-showHello("greeting", "TypeScript");
+enter.innerText = '1s2d3'

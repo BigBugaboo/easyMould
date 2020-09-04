@@ -34,8 +34,8 @@
     "babel-preset-env": "^1.7.0",
     "eslint": "^7.6.0",
     "eslint-plugin-gm-react-app": "^3.3.0",
-    "global": "^4.4.0",
     "gulp-connect": "^5.7.0",
+    "lodash": "^4.17.20",
     "standard-version": "^9.0.0"
   },
   "description": "this is a new frame,let work to easy",

@@ -8,3 +8,4 @@ yarn-error.log
 .eslintcache
 *.less.json
 build/
+dist/
